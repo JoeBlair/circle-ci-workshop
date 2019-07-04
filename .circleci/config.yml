@@ -30,5 +30,7 @@ workflows:
   two_job_flow:
     job:
       - test
-      - package
+      - package:
+          requires: 
+            - test
 
