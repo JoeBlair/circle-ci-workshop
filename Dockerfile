@@ -2,3 +2,4 @@
 
 FROM alpine
 
+CMD ["echo", "something cool"]
