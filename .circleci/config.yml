@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: citcleci/openjdk:8-jdk
     steps:
-      - checkout
+      - checkout:
       - run:
           name: gradle-test
           command:
